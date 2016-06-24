@@ -8,7 +8,7 @@ public class HistoryItem {
 	public int getAmount() {
 		return amount;
 	}
-
+	
 	public String getOperation() {
 		return operation;
 	}

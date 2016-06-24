@@ -29,6 +29,10 @@ public class TrackingService {
 	public void setGoal(int value) {
 		goal = value;
 	}
+	
+	public void setHistoryId(int id) {
+		historyId = id;
+	}
 
 	public boolean isGoalMet() {
 		return total >= goal;
