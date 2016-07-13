@@ -30,8 +30,16 @@ public class TrackingService {
 		goal = value;
 	}
 	
+	public int getGoal() {
+		return goal;
+	}
+	
 	public void setHistoryId(int id) {
 		historyId = id;
+	}
+	
+	public int getHistoryId() {
+		return historyId;
 	}
 
 	public boolean isGoalMet() {
